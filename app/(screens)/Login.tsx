@@ -7,8 +7,9 @@ export default function LoginScreen({ navigation }: { navigation: any }) {
     const [wrongInput, setWrongInput] = useState(false);
 
     const handleLogin = () => {
-        const validEmail = "fernando@senac.com";
-        const validPassword = "123456";
+       // const validEmail = "fernando@senac.com";
+        const validEmail = "1";
+        const validPassword = "1";
 
         if(email === validEmail && password === validPassword){
             navigation.navigate("Home", {email});
