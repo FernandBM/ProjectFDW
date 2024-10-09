@@ -29,5 +29,12 @@ export const styles = StyleSheet.create({
     fontSize: 12,
     color: "#222222",
   },
+  input: {
+    width: "80%",
+    height: 40,
+    margin: 12,
+    borderWidth: 1,
+    padding: 10
+},
 
 });

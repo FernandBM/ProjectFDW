@@ -4,6 +4,8 @@ import { TouchableOpacity, StyleSheet } from 'react-native';
 import Ionicons from '@expo/vector-icons/Ionicons';
 
 const CameraButton = () => {
+
+  
   return (
     <TouchableOpacity style={styles.button}>
       <Ionicons name="camera" size={30} color="#fff" />

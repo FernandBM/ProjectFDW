@@ -4,6 +4,8 @@ import { styles } from "./_styles";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
 import CameraButton from "@/components/CameraButton"; // Importando o componente CameraButton
+import { CameraView } from "expo-camera";
+import CameraComponent  from "@/components/CameraComponent"; // Importando o componente Camera
 
 export default function CameraScreen({ route, navigation }: { route: any, navigation: any }) {
   
@@ -12,7 +14,7 @@ export default function CameraScreen({ route, navigation }: { route: any, naviga
     <View style={styles.container}>
       {/* Main Content */}
       <View style={styles.content}>
-        <Text style={styles.title}>Camera Test</Text>
+        <CameraComponent />
         <CameraButton />
       </View>
 

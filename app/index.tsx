@@ -19,7 +19,7 @@ export default function App() {
           headerTitleAlign: 'center',
         }}/>
         <Stack.Screen name="Camera" component={CameraScreen} options={{
-          headerTitleAlign: 'center',
+          headerTitleAlign: 'center',headerShown: false
         }}/>
         <Stack.Screen name="Database" component={DatabaseScreen} options={{
           headerTitleAlign: 'center',
